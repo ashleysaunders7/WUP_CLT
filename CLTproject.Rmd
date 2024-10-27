@@ -47,9 +47,10 @@ print(paste('mean = ', mean(my1000$kkardashtemp),' sd = ',sd(my1000$kkardashtemp
 When the numb is at 9 it appears that rating kkardashtemp there is a higher uptake in males, with females being near zero while males are near 100. 
 When the numb is 16, it can be assumed the SD will be roughly 10.4.
 When numb is at 25 there is also change in the SD and graph.
+When numb is at 36 there is also change in the SD and graph.
 
 ```{r}
-numb=25
+numb=36
 Hdata = Homers_data[sample(1:1000, size=numb*1000, replace=T),"kkardashtemp"]
 mdata  <-matrix(Hdata,nrow=1000,ncol=numb)
 x.avg <- apply(mdata,1,mean)
@@ -69,9 +70,10 @@ print(paste('mean = ', mean(my1000$k2),' sd = ',sd(my1000$k16)))
 With the numb at 9, it is clear that there is a peak with MF each influencing the other and being more towards the left, the fewer side on the kkardashtmp scale.
 When numb is 16 the SD is about 10.7 and curve of voting is becoming less varied.
 When numb is at 25 there is also change in the SD and graph.
+When numb is at 36 there is also change in the SD and graph.
 
 ```{r}
-numb = 25
+numb = 36
 Hdata = Homers_data[sample(1:1000,size=numb*1000, replace=T),"kkardashtemp"]
 mdata  <-matrix(Hdata,nrow=1000,ncol=numb)
 x.avg <- apply(mdata,1,mean)
@@ -94,3 +96,4 @@ print(paste('mean = ', mean(my1000$k4),' sd = ',sd(my1000$k16)))
 Despite the variation that could be observed in the graph before, our new graph is more united wuth a new SD of roughly 14 and a numb of 9 containing smaller loops opposed to the dipping 5 we previously saw. 
 With numb at 16 the graph becomes slightly more symmetrical with a middle peak, but still a tiny bit skewed right.
 When numb is at 25 there is also change in the SD and graph.
+When numb is at 36 there is also change in the SD and graph.
