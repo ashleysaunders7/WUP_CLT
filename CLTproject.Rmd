@@ -97,4 +97,4 @@ print(paste('mean = ', mean(my1000$k4),' sd = ',sd(my1000$k4)))
 
 # Now finish by adding blocks with numb being 9, then 16, 25, and 36. be sure to mention how the standard deviation progresses as the sample size changes,
 
-Despite the variation that could be observed in the graph before, our new graph is more united wuth a new SD of roughly 14 and a numb of 9 containing smaller loops opposed to the dipping 5 we previously saw. 
+Despite the variation that could be observed in the graph before, our new graph is more united wuth a new SD of roughly 14 and a numb of 9 containing smaller loops opposed to the dipping 5 we previously saw. .
